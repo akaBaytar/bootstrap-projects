@@ -1,0 +1,76 @@
+.navbar .btn-outline-light:hover {
+  color: var(--bs-dark);
+}
+
+.navbar {
+  transition-duration: 0.25s;
+  transition-timing-function: ease-in-out;
+  transition-property: background, opacity, box-shadow;
+}
+
+.navbar-sticky {
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  background-image: url(../images/header-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.modal-dialog {
+  max-width: 1040px;
+}
+
+.download {
+  background: url("../images/download-background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.social-link {
+  color: #fff;
+  transition: color 0.25s ease-in-out;
+}
+
+.social-link#linkedin:hover {
+  color: #0077b5;
+}
+
+.social-link#github:hover {
+  color: #6cc644;
+}
+
+.social-link#reddit:hover {
+  color: #ff5700;
+}
+
+.social-link#twitter:hover {
+  color: #1da1f2;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  font-weight: light;
+  opacity: 0.5;
+  user-select: none;
+  padding-inline-start: 1.7rem;
+  line-height: 4;
+}
+
+textarea {
+  resize: none;
+}
+
+@media (width <= 768px) {
+  .hero .image-container {
+    display: flex;
+    justify-content: center;
+  }
+  .hero .text-container {
+    text-align: center;
+  }
+}

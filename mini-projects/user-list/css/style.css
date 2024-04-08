@@ -1,0 +1,10 @@
+body {
+  font-family: 'Poppins' sans-serif;
+}
+
+@media (width <= 768px) {
+  .nav-container {
+    justify-content: center !important;
+    margin-block-start: 1.2rem;
+  }
+}
