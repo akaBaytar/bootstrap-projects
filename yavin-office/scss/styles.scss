@@ -1,0 +1,198 @@
+// general adjusments
+.btn-outline-secondary {
+  color: var(--bs-secondary);
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.xl-text {
+  font-size: clamp(2rem, 0.9661538461538461rem + 4.135384615384615vw, 4.688rem);
+}
+
+textarea {
+  resize: none;
+}
+
+.back-to-top-button {
+  cursor: pointer;
+  position: fixed;
+  display: none;
+  z-index: 10;
+  bottom: 1.25rem;
+  right: 1.25rem;
+  width: 2.3rem;
+  height: 2.3rem;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  color: #fff;
+  background-color: var(--bs-primary);
+  transition: all 0.25s ease-in-out;
+  opacity: 0;
+
+  &:hover {
+    background-color: var(--bs-secondary);
+  }
+}
+
+.show {
+  display: block;
+  opacity: 1;
+}
+
+// navigation
+.navbar {
+  transition-property: background-color, opacity, box-shadow;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-in-out;
+}
+
+.background {
+  background-color: #fff;
+  opacity: 0.9;
+  box-shadow: 0 0 5px rgba($color: #000, $alpha: 0.5);
+}
+
+.nav-link {
+  font-weight: 600;
+}
+
+// header
+.header > img {
+  position: absolute;
+  top: 80px;
+  width: 500px;
+  opacity: 0.5;
+
+  @media (width <= 992px) {
+    width: 250px;
+  }
+
+  &:nth-child(1) {
+    left: -250px;
+
+    @media (width <= 992px) {
+      left: -125px;
+    }
+  }
+
+  &:nth-child(2) {
+    right: -250px;
+
+    @media (width <= 992px) {
+      right: -125px;
+    }
+  }
+}
+
+@media (width <= 992px) {
+  .header {
+    margin-top: 4rem !important;
+    text-align: center;
+
+    .image-container {
+      margin-top: 2rem;
+      width: 90%;
+      margin-inline: auto;
+    }
+  }
+}
+
+// details section
+.details > img,
+.details-2 > img {
+  position: absolute;
+  top: 80px;
+  width: 500px;
+  opacity: 0.5;
+
+  @media (width <= 992px) {
+    width: 250px;
+  }
+}
+
+.details > img {
+  left: -250px;
+  @media (width <= 992px) {
+    left: -125px;
+  }
+}
+
+.details-2 > img {
+  right: -250px;
+  @media (width <= 992px) {
+    right: -125px;
+  }
+}
+
+// services section
+.services-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services .col-md-4 {
+  @media (width <= 992px) {
+    margin-block: 0.75rem;
+  }
+}
+
+// testimonials section
+.carousel-item .text-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @media (width >= 992px) {
+    margin-inline: auto;
+    width: 60%;
+  }
+}
+
+// contact section
+.contact > img {
+  top: 40px;
+  left: -250px;
+  width: 500px;
+  opacity: 0.5;
+}
+
+// footer
+.footer p,
+.footer li,
+.footer .email {
+  font-size: 0.8rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--bs-primary);
+}
+
+.footer i {
+  transition: color 0.25s ease-in-out;
+}
+
+#linkedin:hover i {
+  color: #0077b5 !important;
+}
+
+#github:hover i {
+  color: #000 !important;
+}
+
+#dribbble:hover i {
+  color: #ea4c89 !important;
+}
+
+#stackoverflow:hover i {
+  color: #ef8236 !important;
+}
+
+.footer small {
+  font-size: 0.7rem;
+}

@@ -1,0 +1,99 @@
+// general styles
+.header {
+  background: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(../images/header-background.jpg);
+
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .slide {
+    width: 90%;
+    margin-inline: auto;
+  }
+}
+
+.navbar {
+  transition: background-color 0.25s ease-in-out;
+}
+
+.form-check-label {
+  user-select: none;
+  cursor: pointer;
+}
+
+.invitation-background {
+  background: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(../images/invitation-background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+  height: 95% !important;
+}
+
+.footer-social > i {
+  transition: color 0.25s ease-in-out;
+}
+
+.copyright {
+  user-select: none;
+}
+
+#linkedin:hover > i {
+  color: #0077b5 !important;
+}
+
+#github:hover > i {
+  color: #fff !important;
+}
+
+#twitter:hover > i {
+  color: #1da1f2 !important;
+}
+
+#dribbble:hover > i {
+  color: #ea4c89 !important;
+}
+
+#reddit:hover > i {
+  color: #ff5700 !important;
+}
+
+input[type='checkbox'] {
+  cursor: pointer;
+}
+
+// couple adjusments for mobile devices
+@media (width <= 768px) {
+  .header {
+    height: 820px !important;
+
+    h1 {
+      font-size: 2.5rem !important;
+    }
+  }
+
+  .register {
+    padding-block: 40px !important;
+  }
+
+  .details h2 {
+    text-align: center !important;
+  }
+
+  .summary {
+    margin-block-start: 0 !important;
+    width: 95% !important;
+  }
+}

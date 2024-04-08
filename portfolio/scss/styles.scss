@@ -1,0 +1,157 @@
+// header & hero section
+.header {
+  background: #151515 url('../images/intro-bg.jpg');
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba($color: #000, $alpha: 0.75);
+  }
+
+  .text-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+  }
+}
+
+.social {
+  bottom: 3rem;
+
+  i {
+    transition: 0.25s color ease-in-out;
+  }
+}
+
+#linkedin:hover i {
+  color: #0077b5 !important;
+}
+
+#github:hover i {
+  color: #333 !important;
+}
+
+#reddit:hover i {
+  color: #ff5500 !important;
+}
+
+#dribbble:hover i {
+  color: #ea4c89 !important;
+}
+
+#stackoverflow:hover i {
+  color: #e7700d !important;
+}
+
+#mail:hover i {
+  color: #0078d4 !important;
+}
+
+@media (width <= 768px) {
+  .header .roles {
+    font-size: 1rem !important;
+  }
+
+  .header .social i {
+    font-size: 2rem;
+  }
+}
+
+// about section
+.about-img {
+  width: 12.5rem;
+}
+
+@media (width <= 768px) {
+  section.about div.d-flex {
+    flex-direction: column;
+  }
+
+  section.about p.lead {
+    font-size: 1rem;
+  }
+}
+
+// profile section
+section.profile .btn {
+  width: 12rem;
+}
+
+section.profile .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (width <= 432px) {
+    flex-direction: column;
+  }
+}
+
+// portfolio section
+.project {
+  transition: scale 0.25s;
+
+  &:hover {
+    scale: 1.03;
+  }
+}
+
+// services section
+.services {
+  background: url('../images/bg.jpg');
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba($color: #000, $alpha: 0.75);
+  }
+
+  .container {
+    position: relative;
+    z-index: 10;
+  }
+}
+
+// stats section
+@media (width <= 768px) {
+  .stat {
+    border-right: none !important;
+    border-bottom: var(--bs-dark) solid 1px !important;
+    margin-inline: 4rem;
+    margin-block-start: 1rem;
+    padding-block-end: 1rem;
+  }
+}
+
+// contact section
+textarea[name='message'] {
+  width: 100%;
+  resize: none;
+}
+
+// footer
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  user-select: none;
+
+  @media (width >= 768px){
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

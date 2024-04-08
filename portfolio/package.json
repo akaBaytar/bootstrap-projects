@@ -1,0 +1,16 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Portfolio website, one of the five websites I developed during my Bootstrap 5 learning process.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --no-source-map --watch scss:css"
+  },
+  "author": "Burak Bilgili",
+  "license": "MIT",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "bootstrap": "^5.2.3",
+    "sass": "^1.62.0"
+  }
+}

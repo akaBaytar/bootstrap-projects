@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <link rel="icon" href="assets/favicon.png" />
+
+    <script src="js/replaceme.min.js" defer></script>
+    <script src="js/bootstrap.bundle.min.js" defer></script>
+    <script src="js/script.js" defer></script>
+
+    <title>Vera</title>
+  </head>
+  <body>
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <img src="assets/logo.svg" alt="Vera Homepage" width="100" />
+        </a>
+        <!-- toggler button -->
+        <button
+          type="button"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="toggle navigation"
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- dropdown & nav menu -->
+        <div id="navbarNavDropdown" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item ms-auto me-1">
+              <a href="#" aria-current="page" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item ms-auto me-1">
+              <a href="#solutions" class="nav-link">Solutions</a>
+            </li>
+            <li class="nav-item ms-auto me-1">
+              <a href="#details" class="nav-link">Details</a>
+            </li>
+            <li class="nav-item ms-auto me-1">
+              <a href="#expertise" class="nav-link">Expertise</a>
+            </li>
+            <li class="nav-item ms-auto me-1">
+              <a href="#pricing" class="nav-link">Pricing</a>
+            </li>
+            <li class="nav-item ms-auto me-1">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+          </ul>
+          <!-- social icons -->
+          <span class="nav-item mt-2 mt-lg-0 float-end">
+            <span class="fa-stack">
+              <a href="https://www.linkedin.com/in/akabaytar/" target="_blank">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-linkedin-in fa-stack-1x text-white"></i>
+              </a>
+            </span>
+            <span class="fa-stack">
+              <a href="https://github.com/akaBaytar" target="_blank">
+                <i class="fas fa-circle fa-stack-2x text-white"></i>
+                <i class="fab fa-github fa-stack-1x"></i>
+              </a>
+            </span>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- header -->
+    <header class="header position-relative">
+      <img
+        src="assets/vertical-decoration-left.svg"
+        alt="orange decoration bar"
+        class="vertical-decoration position-absolute d-none d-md-block" />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 pt-5">
+            <h1 class="xl-text mt-5">
+              Software Solutions for
+              <span class="text-primary fw-bold replace-me">
+                Businesses, Startups, Enterprises
+              </span>
+            </h1>
+            <p class="lead">
+              Boost your business with cutting-edge software solutions tailored
+              to the needs of modern enterprises.
+            </p>
+            <a href="#" class="btn btn-primary text-white">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- homepage -->
+    <main>
+      <!-- partners section -->
+      <section class="partners py-6 overflow-hidden">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h6 class="text-center mb-4 text-uppercase text-primary">
+                Our Partners
+              </h6>
+              <div class="partners-container">
+                <img src="images/partner-logo-1.png" alt="Primester" />
+                <img src="images/partner-logo-2.png" alt="GreenApp" />
+                <img src="images/partner-logo-3.png" alt="Voltmeter" />
+                <img src="images/partner-logo-4.png" alt="Keyrunner" />
+                <img src="images/partner-logo-5.png" alt="Amplifier" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- form section -->
+      <section id="contact" class="contact mb-6">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h2 class="fw-bold">Get More Information</h2>
+              <hr class="hr-heading" />
+              <p class="lead">
+                We provide innovative software solutions that empower businesses
+                to thrive in the digital era.
+              </p>
+              <ul class="list-unstyled lh-lg">
+                <li class="d-flex align-items-center">
+                  <i class="fas fa-check text-primary mx-3"></i>
+                  <small>
+                    <strong>Customized Solutions:</strong>
+                    Our solutions are designed to meet your spesific business
+                    needs, ensuring maximum efficiency and productivity.
+                  </small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <i class="fas fa-check text-primary mx-3"></i>
+                  <small>
+                    <strong>Seamless Integrations:</strong>
+                    We seamlessly integrate our software with your existing
+                    systems, minimizing disruptions and optimizing workflows.
+                  </small>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6 mt-4 mt-lg-0">
+              <form>
+                <div class="mb-4">
+                  <input
+                    type="text"
+                    name="name"
+                    autocomplete="name"
+                    placeholder="Name"
+                    class="form-control bg-secondary" />
+                </div>
+                <div class="mb-4">
+                  <input
+                    type="email"
+                    name="email"
+                    autocomplete="email"
+                    placeholder="Email"
+                    class="form-control bg-secondary" />
+                </div>
+                <div class="mb-4">
+                  <input
+                    type="tel"
+                    name="phone"
+                    autocomplete="tel"
+                    placeholder="Phone"
+                    class="form-control bg-secondary" />
+                </div>
+                <div class="mb-4">
+                  <select
+                    name="interested"
+                    id="interested"
+                    class="form-control bg-secondary">
+                    <option value="erp">ERP Solution</option>
+                    <option value="crm">CRM Solution</option>
+                    <option value="cms">CMS Solution</option>
+                    <option value="sfa">SFA Solution</option>
+                  </select>
+                </div>
+                <div class="mb-4 form-check ps-1">
+                  <input type="checkbox" id="agree-check" />
+                  <label for="agree-check" class="form-check-label">
+                    I agree to the
+                    <a href="#">Terms & Conditions</a>
+                    and
+                    <a href="#">Privacy Policy.</a>
+                  </label>
+                </div>
+                <div class="d-grid">
+                  <input
+                    type="submit"
+                    value="Submit"
+                    class="btn btn-primary text-white" />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- solutions section -->
+      <section id="solutions" class="solutions my-6">
+        <div class="container">
+          <div class="row mb-4">
+            <div class="col-lg-8 offset-lg-2 d-flex flex-column text-center">
+              <h5>
+                <span class="badge bg-primary p-2 text-uppercase">
+                  Solutions
+                </span>
+              </h5>
+              <h2 class="fw-bold">
+                Vera Provides Software Solutions for Business Acceleration
+              </h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mb-4">
+              <div class="card bg-secondary">
+                <img src="images/solution-1.jpg" class="card-img-top" />
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">ERP Software Solutions</h5>
+                  <p class="card-text">
+                    Our ERP software solution streamlines your business
+                    processes and enhances operational efficiency. With
+                    integrated modules for finance, human resources, and more,
+                    you can make data-driven decisions.
+                  </p>
+                  <span class="badge bg-primary p-2 text-uppercase">
+                    Management
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card bg-secondary">
+                <img src="images/solution-2.jpg" class="card-img-top" />
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">CRM Software Solutions</h5>
+                  <p class="card-text">
+                    Our CRM software solution helps you build stronger customer
+                    relationships and drive sales growth. Manage leads, track
+                    interactions, and deliver personalized experiences to
+                    maximize customer satisfaction.
+                  </p>
+                  <span class="badge bg-primary p-2 text-uppercase">
+                    Marketing
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card bg-secondary">
+                <img src="images/solution-3.jpg" class="card-img-top" />
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">SFA Software Solutions</h5>
+                  <p class="card-text">
+                    Our SFA software solution empowers your sales team with the
+                    tools they need to drive revenue growth. Streamline sales
+                    processes, track performance, and enhance collaboration to
+                    close deals faster.
+                  </p>
+                  <span class="badge bg-primary p-2 text-uppercase">
+                    Management
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card bg-secondary">
+                <img src="images/solution-4.jpg" class="card-img-top" />
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">WMS Software Solutions</h5>
+                  <p class="card-text">
+                    Our WMS software solution optimizes your warehouse
+                    operations and improves inventory management. Gain real-time
+                    visibility, automate processes, and reduce costs to ensure
+                    efficient logistics.
+                  </p>
+                  <span class="badge bg-primary p-2 text-uppercase">
+                    Marketing
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- details section -1- -->
+      <section id="details" class="details my-6">
+        <div class="container">
+          <div class="row pt-5">
+            <div class="col-lg-6">
+              <h2 class="fw-bold">Evalution & Deployment</h2>
+              <hr class="hr-heading" />
+              <p>
+                We offer comprehensive evaluation and deployment services to
+                ensure a smooth and successful implementation of our software
+                solutions.
+              </p>
+              <ul class="list-unstyled lh-lg">
+                <li class="d-flex align-items-center">
+                  <i class="fas fa-check text-primary mx-3"></i>
+                  <small>
+                    <strong>Customized Solutions:</strong>
+                    We tailor our solutions to align with your unique business
+                    needs.
+                  </small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <i class="fas fa-check text-primary mx-3"></i>
+                  <small>
+                    <strong>Seamless Integration:</strong>
+                    Our team ensures smooth integration of the software into
+                    your existing infrastructure, minimizing disruptions.
+                  </small>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <img src="images/details-1.jpg" class="img-fluid rounded-2" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- details section -2- -->
+      <section id="details" class="details my-6">
+        <div class="container">
+          <div class="row pt-5">
+            <div class="col-lg-6">
+              <img
+                src="images/details-2.jpg"
+                class="img-fluid rounded-2 d-none d-lg-block" />
+            </div>
+            <div class="col-lg-6">
+              <h2 class="fw-bold">Maintenance & Support</h2>
+              <hr class="hr-heading" />
+              <p>
+                We provide comprehensive maintenance and support services to
+                ensure the smooth and uninterrupted operation of your software
+                solutions.
+              </p>
+              <a href="#" class="d-inline-block mb-4">
+                Learn more about our support services.
+              </a>
+              <ul class="list-unstyled lh-lg">
+                <li class="d-flex align-items-center">
+                  <i class="fas fa-check text-primary mx-3"></i>
+                  <small>
+                    <strong>Proactive Maintenance:</strong>
+                    We proactively monitor and maintain your software solutions
+                    to prevent issues and optimize performance.
+                  </small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <i class="fas fa-check text-primary mx-3"></i>
+                  <small>
+                    <strong>Timely Updates:</strong>
+                    We ensure your software is up to date with the latest
+                    features, security patches, and enhancements.
+                  </small>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <img
+                src="images/details-2.jpg"
+                class="img-fluid rounded-2 d-lg-none" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- expertise section -->
+      <section id="expertise" class="expertise bg-secondary py-6 my-6">
+        <div class="container">
+          <div class="row mb-4">
+            <div class="col-lg-8 offset-lg-2 d-flex flex-column text-center">
+              <h5>
+                <span class="badge bg-primary p-2 text-uppercase">
+                  Expertise
+                </span>
+              </h5>
+              <h2 class="fw-bold">Expertise Strong Points</h2>
+              <p>
+                We take pride in our expertise. With years of experience and a
+                dedicated team, we deliver exceptional software solutions
+                tailored to your needs. Our strong points include:
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-3">
+              <div class="card bg-transparent border-0 text-center mb-3">
+                <div class="card-image">
+                  <i class="fas fa-shuffle fa-4x text-primary"></i>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Flexible Services</h4>
+                  <small>
+                    Scalable solutions tailored to evolving business needs.
+                  </small>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card bg-transparent border-0 text-center mb-3">
+                <div class="card-image">
+                  <i class="fas fa-desktop fa-4x text-primary"></i>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Great Design</h4>
+                  <small>
+                    Precision-built solutions for exceptional user experience.
+                  </small>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card bg-transparent border-0 text-center mb-3">
+                <div class="card-image">
+                  <i class="fas fa-globe-europe fa-4x text-primary"></i>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Easy to Use</h4>
+                  <small>
+                    Intuitive interfaces for seamless user navigation.
+                  </small>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card bg-transparent border-0 text-center mb-3">
+                <div class="card-image">
+                  <i class="fas fa-cog fa-4x text-primary"></i>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Smart Options</h4>
+                  <small>
+                    Automated features optimizing processes with intelligence.
+                  </small>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card bg-transparent border-0 text-center mb-3">
+                <div class="card-image">
+                  <i class="fas fa-glasses fa-4x text-primary"></i>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Advanced Tech</h4>
+                  <small>
+                    Innovative solutions leveraging cutting-edge technology..
+                  </small>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card bg-transparent border-0 text-center mb-3">
+                <div class="card-image">
+                  <i class="fas fa-graduation-cap fa-4x text-primary"></i>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Good Expertise</h4>
+                  <small>
+                    Industry-leading professionals ensuring project success.
+                  </small>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card bg-transparent border-0 text-center mb-3">
+                <div class="card-image">
+                  <i class="fas fa-chart-bar fa-4x text-primary"></i>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Detailed Reports</h4>
+                  <small>
+                    Customizable insights for informed decision-making.
+                  </small>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card bg-transparent border-0 text-center mb-3">
+                <div class="card-image">
+                  <i class="fas fa-cloud fa-4x text-primary"></i>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Cloud Storage</h4>
+                  <small>
+                    Secure, accessible storage solutions with built-in
+                    redundancy.
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- video section -->
+      <section class="video my-6">
+        <div class="container">
+          <div class="row">
+            <!-- preview image & play button -->
+            <div class="col-12 d-flex flex-column align-items-center">
+              <div class="position-relative">
+                <img src="images/video-preview.jpg" class="img-fluid" />
+                <a
+                  data-bs-toggle="modal"
+                  data-bs-target="#videoModal"
+                  data-bs-src="https://www.youtube.com/embed/pHXDMe6QV-U"
+                  class="video-button">
+                  <span class="video-play-button">
+                    <span></span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row video-points px-6 mt-6">
+            <div class="col-lg-4">
+              <h4 class="fw-bold">10 Years Of Experience</h4>
+              <p>
+                With over 10 years of experience, we have gained valuable
+                insights and expertise to deliver high-quality software
+                solutions
+              </p>
+            </div>
+            <div class="col-lg-4">
+              <h4 class="fw-bold">Enduring Partnerships</h4>
+              <p>
+                We believe in building enduring partnerships with our clients.
+                We establish long-term relationships based on trust
+              </p>
+            </div>
+            <div class="col-lg-4">
+              <h4 class="fw-bold">Skilled Capable Team</h4>
+              <p>
+                Our team consists of skilled and capable professionals who are
+                passionate about delivering excellence
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- video modal -->
+        <div class="video-modal">
+          <div id="videoModal" class="modal fade">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="ratio ratio-16x9">
+                  <iframe
+                    frameborder="0"
+                    id="video"
+                    class="embed-responsive-item"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- pricing section -->
+      <section id="pricing" class="pricing my-6">
+        <div class="container">
+          <div class="row mb-4">
+            <div class="col-lg-8 offset-lg-2 d-flex flex-column text-center">
+              <h5>
+                <span class="badge bg-primary p-2 text-uppercase">Pricing</span>
+              </h5>
+              <h2 class="fw-bold">Flexible Pricing Options</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card bg-secondary text-center">
+                <div class="card-body">
+                  <span class="xl-text fw-bold">$99</span>
+                  <h4
+                    class="card-title text-primary text-uppercase fw-bold mb-4">
+                    Standart
+                  </h4>
+                  <p>
+                    Our standart pricing plan offers a comprehensive set of
+                    features for your needs.
+                  </p>
+                  <ul class="list-unstyled text-start lh-lg mt-4">
+                    <li>
+                      <i class="fas fa-check text-primary mx-3"></i>
+                      <span>Subscribers List</span>
+                    </li>
+                    <li>
+                      <i class="fas fa-check text-primary mx-3"></i>
+                      <span>User Admin Control</span>
+                    </li>
+                    <li class="text-muted">
+                      <i class="fas fa-circle mx-3"></i>
+                      <span>Cloud Storage</span>
+                    </li>
+                    <li class="text-muted">
+                      <i class="fas fa-circle mx-3"></i>
+                      <span>Deployment Protocol</span>
+                    </li>
+                    <li class="text-muted">
+                      <i class="fas fa-circle mx-3"></i>
+                      <span>Premium Support Pack</span>
+                    </li>
+                  </ul>
+                  <div class="d-grid">
+                    <a
+                      href="#contact"
+                      class="btn btn-primary text-white mt-4 fw-bold">
+                      Inquire
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mt-5 mt-lg-0">
+              <div class="card bg-secondary text-center">
+                <div class="card-body">
+                  <span class="xl-text fw-bold">$199</span>
+                  <h4
+                    class="card-title text-primary text-uppercase fw-bold mb-4">
+                    Advanced
+                  </h4>
+                  <p>
+                    Unlock additional enhanced capabilities. Take your software
+                    solutions to the next level.
+                  </p>
+                  <ul class="list-unstyled text-start lh-lg mt-4">
+                    <li>
+                      <i class="fas fa-check text-primary mx-3"></i>
+                      <span>Subscribers List</span>
+                    </li>
+                    <li>
+                      <i class="fas fa-check text-primary mx-3"></i>
+                      <span>User Admin Control</span>
+                    </li>
+                    <li>
+                      <i class="fas fa-check text-primary mx-3"></i>
+                      <span>Cloud Storage</span>
+                    </li>
+                    <li class="text-muted">
+                      <i class="fas fa-circle mx-3"></i>
+                      <span>Deployment Protocol</span>
+                    </li>
+                    <li class="text-muted">
+                      <i class="fas fa-circle mx-3"></i>
+                      <span>Premium Support Pack</span>
+                    </li>
+                  </ul>
+                  <div class="d-grid">
+                    <a
+                      href="#contact"
+                      class="btn btn-primary text-white mt-4 fw-bold">
+                      Inquire
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mt-5 mt-lg-0">
+              <div class="card bg-secondary text-center">
+                <div class="card-body">
+                  <span class="xl-text fw-bold">$299</span>
+                  <h4
+                    class="card-title text-primary text-uppercase fw-bold mb-4">
+                    Complete
+                  </h4>
+                  <p>
+                    Our complete pricing plan offers an all-inclusive package
+                    with advanced features.
+                  </p>
+                  <ul class="list-unstyled text-start lh-lg mt-4">
+                    <li>
+                      <i class="fas fa-check text-primary mx-3"></i>
+                      <span>Subscribers List</span>
+                    </li>
+                    <li>
+                      <i class="fas fa-check text-primary mx-3"></i>
+                      <span>User Admin Control</span>
+                    </li>
+                    <li>
+                      <i class="fas fa-check text-primary mx-3"></i>
+                      <span>Cloud Storage</span>
+                    </li>
+                    <li>
+                      <i class="fas fa-check text-primary mx-3"></i>
+                      <span>Deployment Protocol</span>
+                    </li>
+                    <li>
+                      <i class="fas fa-check text-primary mx-3"></i>
+                      <span>Premium Support Pack</span>
+                    </li>
+                  </ul>
+                  <div class="d-grid">
+                    <a
+                      href="#contact"
+                      class="btn btn-primary text-white mt-4 fw-bold">
+                      Inquire
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- projects section -->
+      <section id="projects" class="projects my-6">
+        <div class="container">
+          <!-- heading -->
+          <div class="row mb-5">
+            <div class="col-lg-8 offset-lg-2 d-flex flex-column text-center">
+              <h5>
+                <span class="badge bg-primary p-2 text-uppercase">
+                  Projects
+                </span>
+              </h5>
+              <h2 class="fw-bold">Project's We Are Proud Of</h2>
+              <p>
+                We take pride in our successful projects and the value they
+                bring to our clients. With our expertise and dedication, we have
+                delivered exceptional results.
+              </p>
+            </div>
+          </div>
+          <!-- project cards -->
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card bg-secondary">
+                <a data-bs-toggle="modal" data-bs-target="#modal1">
+                  <img src="images/project-1.jpg" class="card-img-top" />
+                  <div class="card-body">
+                    <span>
+                      <strong>Orkla Foods</strong>
+                      <p>
+                        Donec bibeum mollis liga sit amet pulvinar sed viverra
+                        noris.
+                      </p>
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card bg-secondary">
+                <a data-bs-toggle="modal" data-bs-target="#modal2">
+                  <img src="images/project-2.jpg" class="card-img-top" />
+                  <div class="card-body">
+                    <span>
+                      <strong>First Bank</strong>
+                      <p>
+                        Donec bibeum mollis liga sit amet pulvinar sed viverra
+                        noris.
+                      </p>
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card bg-secondary">
+                <a data-bs-toggle="modal" data-bs-target="#modal3">
+                  <img src="images/project-3.jpg" class="card-img-top" />
+                  <div class="card-body">
+                    <span>
+                      <strong>All Sweets</strong>
+                      <p>
+                        Donec bibeum mollis liga sit amet pulvinar sed viverra
+                        noris.
+                      </p>
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card bg-secondary">
+                <a data-bs-toggle="modal" data-bs-target="#modal4">
+                  <img src="images/project-4.jpg" class="card-img-top" />
+                  <div class="card-body">
+                    <span>
+                      <strong>Fast Courier</strong>
+                      <p>
+                        Donec bibeum mollis liga sit amet pulvinar sed viverra
+                        noris.
+                      </p>
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card bg-secondary">
+                <a data-bs-toggle="modal" data-bs-target="#modal5">
+                  <img src="images/project-5.jpg" class="card-img-top" />
+                  <div class="card-body">
+                    <span>
+                      <strong>Lyra Market</strong>
+                      <p>
+                        Donec bibeum mollis liga sit amet pulvinar sed viverra
+                        noris.
+                      </p>
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card bg-secondary">
+                <a data-bs-toggle="modal" data-bs-target="#modal6">
+                  <img src="images/project-6.jpg" class="card-img-top" />
+                  <div class="card-body">
+                    <span>
+                      <strong>Monday Stores</strong>
+                      <p>
+                        Donec bibeum mollis liga sit amet pulvinar sed viverra
+                        noris.
+                      </p>
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- newsletter section -->
+      <section id="newsletter" class="newsletter my-6">
+        <div class="container">
+          <div class="row mb-4">
+            <div class="col-lg-8 offset-lg-2 d-flex flex-column text-center">
+              <h5>
+                <span class="badge bg-primary p-2 text-uppercase">
+                  Newsletter
+                </span>
+              </h5>
+              <h2 class="fw-bold">Subscribe & Follow</h2>
+              <p>
+                Stay updated with our latest news and announcements. Subscribe
+                to our newsletter and follow us on social media for valuable
+                insights and exciting updates.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+              <div class="input-group mb-3">
+                <input
+                  type="email"
+                  name="newsletter"
+                  autocomplete="email"
+                  placeholder="Enter your Email Address"
+                  class="form-control rounded-start" />
+                <button
+                  type="submit"
+                  class="btn btn-primary text-white rounded-end">
+                  Submit
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer bg-dark pt-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-2">
+            <h6>Vera</h6>
+            <p>
+              Vera is a dedicated software solutions company that aims to
+              provide exceptional services to its clients. We are committed to
+              delivering innovative and customized solutions that meet your
+              specific business needs.
+            </p>
+          </div>
+          <div class="col-lg-4 mb-2">
+            <h6>Links</h6>
+            <ul class="list-unstyled">
+              <li>
+                Important:
+                <a href="#">Terms & Conditions</a>
+                ,
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li>
+                Useful:
+                <a href="index.html#expertise">Expertise</a>
+                ,
+                <a href="index.html#pricing">Pricing</a>
+                ,
+                <a href="index.html#newsletter">Newsletter</a>
+              </li>
+              <li>
+                Menu:
+                <a href="index.html">Home</a>
+                ,
+                <a href="index.html#details">Details</a>
+                ,
+                <a href="index.html#solutions">Solutions</a>
+                ,
+                <a href="index.html#projects">Projects</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 mb-2">
+            <h6>Socials</h6>
+            <div class="hstack gap-3">
+              <a
+                href="https://www.linkedin.com/in/akabaytar/"
+                target="_blank"
+                rel="noreferrer"
+                id="linkedin">
+                <i class="fab fa-linkedin-in fa-2x"></i>
+              </a>
+              <a
+                href="https://github.com/akaBaytar"
+                target="_blank"
+                rel="noreferrer"
+                id="github">
+                <i class="fab fa-github fa-2x"></i>
+              </a>
+              <a
+                href="https://dribbble.com/following"
+                target="_blank"
+                rel="noreferrer"
+                id="dribbble">
+                <i class="fab fa-dribbble fa-2x"></i>
+              </a>
+              <a
+                href="https://stackoverflow.com/users/20755492/akabaytar"
+                target="_blank"
+                rel="noreferrer"
+                id="stackoverflow">
+                <i class="fab fa-stack-overflow fa-2x"></i>
+              </a>
+            </div>
+            <p class="mt-2 mb-0">We would love to hear from you.</p>
+            <a href="mailto:contact@burakbilgili.co.uk" class="email">
+              Contact via email
+            </a>
+          </div>
+        </div>
+        <div class="row mt-6 pb-3 text-muted text-center">
+          <small class="my-0">Copyright &copy; All right reserved.</small>
+          <small>
+            Vera -
+            <span id="date"></span>
+          </small>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

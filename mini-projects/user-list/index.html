@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <script src="js/bootstrap.bundle.min.js" defer></script>
+    <script src="js/darkModeToggler.js" defer></script>
+    <title>User List</title>
+  </head>
+  <body>
+    <header class="mb-4">
+      <div class="container mt-4">
+        <div class="d-flex justify-content-end">
+          <div class="btn-group">
+            <button class="btn btn-sm border" data-bs-theme-value="dark">
+              <i class="bi bi-moon-fill text-secondary"></i>
+            </button>
+            <button class="btn btn-sm border" data-bs-theme-value="light">
+              <i class="bi bi-sun-fill text-warning"></i>
+            </button>
+          </div>
+        </div>
+        <h1 class="mb-4">User List</h1>
+        <div class="row">
+          <div class="col-md-4">
+            <input
+              type="search"
+              class="form-control"
+              placeholder="Search an user" />
+          </div>
+          <div
+            class="nav-container col-md-8 d-flex justify-content-end align-items-center">
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Reputation</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link bg-body-secondary rounded-2">
+                  New Users
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Editors</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Moderators</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-xl-4">
+            <div class="card mb-3">
+              <div class="card-body">
+                <div class="d-flex gap-3">
+                  <div class="user-img">
+                    <img
+                      src="https://randomuser.me/api/portraits/women/45.jpg"
+                      alt="Random Woman Image"
+                      class="img-fluid rounded-circle" />
+                  </div>
+                  <div class="user-info">
+                    <h4>Sophia Rodriguez</h4>
+                    <h6>Miami, Florida, USA</h6>
+                    <span class="badge text-bg-success">Photography</span>
+                    <span class="badge text-bg-success">Salsa</span>
+                    <span class="badge text-bg-success">Snorkeling</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="card mb-3">
+              <div class="card-body">
+                <div class="d-flex gap-3">
+                  <div class="user-img">
+                    <img
+                      src="https://randomuser.me/api/portraits/men/35.jpg"
+                      alt="Random Man Image"
+                      class="img-fluid rounded-circle" />
+                  </div>
+                  <div class="user-info">
+                    <h4>Lucas Patel</h4>
+                    <h6>Sydney, Australia</h6>
+                    <span class="badge text-bg-success">Surfing</span>
+                    <span class="badge text-bg-success">Guitar</span>
+                    <span class="badge text-bg-success">Hiking</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="card mb-3">
+              <div class="card-body">
+                <div class="d-flex gap-3">
+                  <div class="user-img">
+                    <img
+                      src="https://randomuser.me/api/portraits/women/15.jpg"
+                      alt="Random Woman Image"
+                      class="img-fluid rounded-circle" />
+                  </div>
+                  <div class="user-info">
+                    <h4>Emily Changl</h4>
+                    <h6>Vancouver, Canada</h6>
+                    <span class="badge text-bg-success">Painting</span>
+                    <span class="badge text-bg-success">Yoga</span>
+                    <span class="badge text-bg-success">Cooking</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="card mb-3">
+              <div class="card-body">
+                <div class="d-flex gap-3">
+                  <div class="user-img">
+                    <img
+                      src="https://randomuser.me/api/portraits/men/15.jpg"
+                      alt="Random Man Image"
+                      class="img-fluid rounded-circle" />
+                  </div>
+                  <div class="user-info">
+                    <h4>Alex Kowalski</h4>
+                    <h6>Warsaw, Poland</h6>
+                    <span class="badge text-bg-success">Reading</span>
+                    <span class="badge text-bg-success">Chess</span>
+                    <span class="badge text-bg-success">Gardening</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="card mb-3">
+              <div class="card-body">
+                <div class="d-flex gap-3">
+                  <div class="user-img">
+                    <img
+                      src="https://randomuser.me/api/portraits/women/30.jpg"
+                      alt="Random Woman Image"
+                      class="img-fluid rounded-circle" />
+                  </div>
+                  <div class="user-info">
+                    <h4>Isabella Santos</h4>
+                    <h6>Rio de Janeiro, Brazil</h6>
+                    <span class="badge text-bg-success">Capoeira</span>
+                    <span class="badge text-bg-success">Volleyball</span>
+                    <span class="badge text-bg-success">Poetry</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="card mb-3">
+              <div class="card-body">
+                <div class="d-flex gap-3">
+                  <div class="user-img">
+                    <img
+                      src="https://randomuser.me/api/portraits/men/20.jpg"
+                      alt="Random Man Image"
+                      class="img-fluid rounded-circle" />
+                  </div>
+                  <div class="user-info">
+                    <h4>Mehmet Yılmaz</h4>
+                    <h6>Istanbul, Turkey</h6>
+                    <span class="badge text-bg-success">Politics</span>
+                    <span class="badge text-bg-success">Football</span>
+                    <span class="badge text-bg-success">Backgammon</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 mt-3">
+            <ul class="pagination pagination-sm">
+              <li class="page-item">
+                <a class="page-link" href="#">
+                  <i class="bi bi-chevron-double-left"></i>
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#">
+                  <i class="bi bi-chevron-left"></i>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item disabled">
+                <a class="page-link" href="#">...</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#">28</a>
+              </li>
+              <li class="page-item disabled">
+                <a class="page-link" href="#">...</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">79</a></li>
+              <li class="page-item"><a class="page-link" href="#">80</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">
+                  <i class="bi bi-chevron-right"></i>
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#">
+                  <i class="bi bi-chevron-double-right"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

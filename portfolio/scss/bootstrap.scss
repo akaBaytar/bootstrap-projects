@@ -1,0 +1,44 @@
+// font
+$font-family-sans-serif: 'Poppins', sans-serif;
+
+// color
+$primary: #cc005f;
+$secondary: #990047;
+$dark: #000;
+$light: #f4f4f4;
+
+// buttons
+$button-radius: 5px;
+$button-padding-x: 30px;
+$button-padding-y: 12px;
+
+$btn-border-radius: $button-radius;
+$btn-border-radius-sm: $button-radius;
+$btn-border-radius-lg: $button-radius;
+
+$btn-padding-x: $button-padding-x;
+$btn-padding-x-sm: $button-padding-x;
+$btn-padding-x-lg: $button-padding-x;
+
+$btn-padding-y: $button-padding-y;
+$btn-padding-y-sm: $button-padding-y;
+$btn-padding-y-lg: $button-padding-y;
+
+// mobile menu toggler
+$navbar-toggler-border-radius: 5px;
+
+// spacing
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 9,
+  8: $spacer * 12,
+) !default;
+
+@import '../node_modules/bootstrap/scss/bootstrap';
