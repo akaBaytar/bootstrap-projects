@@ -17,15 +17,15 @@ The HTML document serves as a portfolio showcase for Bootstrap projects. It prov
 
 ## Project List
 
-1. [Vera Software](../vera-software/): A Bootstrap business website for software solutions with a dark-themed design and various features including modals and pricing grid.
+1. [Vera Software](/vera-software): A Bootstrap business website for software solutions with a dark-themed design and various features including modals and pricing grid.
 
-2. [Yavin Office](../yavin-office/): A Bootstrap website for a company specializing in office spaces customization, featuring a light business theme, testimonial slider, and contact form.
+2. [Yavin Office](/yavin-office): A Bootstrap website for a company specializing in office spaces customization, featuring a light business theme, testimonial slider, and contact form.
 
-3. [Corso Training](../corso-training/): A Bootstrap website for training courses, workshops, and seminars, with a modern layout, carousel image slider, and registration forms.
+3. [Corso Training](/corso-training): A Bootstrap website for training courses, workshops, and seminars, with a modern layout, carousel image slider, and registration forms.
 
-4. [Blog Mastery](../blog-mastery/): A Bootstrap website offering a free E-book download, featuring a light business-like design, testimonials, and a contact page with Google Map integration.
+4. [Blog Mastery](/blog-mastery): A Bootstrap website offering a free E-book download, featuring a light business-like design, testimonials, and a contact page with Google Map integration.
 
-5. [Portfolio Website](../portfolio/): A dark-light contrast portfolio website suitable for web developers, featuring a full-height header, typewriter effect, and Lightbox modals for project showcases.
+5. [Portfolio Website](/portfolio): A dark-light contrast portfolio website suitable for web developers, featuring a full-height header, typewriter effect, and Lightbox modals for project showcases.
 
 ## Features
 
